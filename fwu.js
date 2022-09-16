@@ -72,14 +72,11 @@ function checkTime() {
   if ((hours >= 6) && (hours <= 18)) {
     setTheme('Day');
   }
-  else if ((hours >= 19) && (hours <= 5)) {
+  else if ((hours >= 19) || (hours <= 5)) {
     setTheme('Night');
   }
-  else {
-    setTheme('Day');
-
-  }
 }
+
 // On start up, check the time to see what theme to show.
 checkTime();
 
