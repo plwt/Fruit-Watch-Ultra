@@ -12,7 +12,7 @@ const themes = {
       toolbar_field: 'rgb(20, 17, 26)',
       toolbar_field_text: 'rgb(251, 29, 78)',
       toolbar_field_border: 'rgb(251, 29, 78)',
-      toolbar_field_border_focus: 'rgb(251, 29, 78)',      
+      toolbar_field_border_focus: 'rgb(251, 29, 78)',
       ntp_background: 'rgb(20, 17, 26)',
       ntp_background_text: 'rgb(0, 255, 65)',
       ntp_text: 'rgb(251, 29, 78)',
@@ -35,7 +35,7 @@ const themes = {
       popup: 'rgb(20, 17, 26)',
       toolbar_field_text: 'rgb(255, 138, 0)',
       toolbar_field_border: 'rgb(255, 138, 0)',
-      toolbar_field_border_focus: 'rgb(255, 138, 0)',  
+      toolbar_field_border_focus: 'rgb(255, 138, 0)',
       ntp_text: 'rgb(255, 138, 0)',
       tab_line: 'rgb(255, 138, 0)',
       toolbar_field: 'rgb(20, 17, 26)',
@@ -57,7 +57,7 @@ const themes = {
       popup: 'rgb(20, 17, 26)',
       toolbar_field_text: 'rgb(255, 221, 0)',
       toolbar_field_border: 'rgb(255, 221, 0)',
-      toolbar_field_border_focus: 'rgb(255, 221, 0)',  
+      toolbar_field_border_focus: 'rgb(255, 221, 0)',
       ntp_text: 'rgb(255, 221, 0)',
       tab_line: 'rgb(255, 221, 0)',
       toolbar_field: 'rgb(20, 17, 26)',
@@ -79,7 +79,7 @@ const themes = {
       popup: 'rgb(20, 17, 26)',
       toolbar_field_text: 'rgb(0, 255, 65)',
       toolbar_field_border: 'rgb(0, 255, 65)',
-      toolbar_field_border_focus: 'rgb(0, 255, 65)',  
+      toolbar_field_border_focus: 'rgb(0, 255, 65)',
       ntp_text: 'rgb(0, 255, 65)',
       tab_line: 'rgb(0, 255, 65)',
       toolbar_field: 'rgb(20, 17, 26)',
@@ -101,7 +101,7 @@ const themes = {
       popup: 'rgb(20, 17, 26)',
       toolbar_field_text: 'rgb(0, 200, 215)',
       toolbar_field_border: 'rgb(0, 200, 215)',
-      toolbar_field_border_focus: 'rgb(0, 200, 215)',  
+      toolbar_field_border_focus: 'rgb(0, 200, 215)',
       ntp_text: 'rgb(0, 200, 215)',
       tab_line: 'rgb(0, 200, 215)',
       toolbar_field: 'rgb(20, 17, 26)',
@@ -123,7 +123,7 @@ const themes = {
       popup: 'rgb(20, 17, 26)',
       toolbar_field_text: 'rgb(184, 51, 255)',
       toolbar_field_border: 'rgb(184, 51, 255)',
-      toolbar_field_border_focus: 'rgb(184, 51, 255)',  
+      toolbar_field_border_focus: 'rgb(184, 51, 255)',
       ntp_text: 'rgb(184, 51, 255)',
       tab_line: 'rgb(184, 51, 255)',
       toolbar_field: 'rgb(20, 17, 26)',
@@ -161,57 +161,57 @@ function checkTime() {
   let date = new Date();
   let hours = date.getHours();
   // Will set the theme between 8am and 8pm.
-  switch(hours) {
+  switch (hours) {
     case 0:
-    case 12: 
-          setTheme('Red');
-          break;
-    case 1: 
+    case 12:
+      setTheme('Red');
+      break;
+    case 1:
     case 13:
-          setTheme('Orange');
-          break;
-    case 2: 
+      setTheme('Orange');
+      break;
+    case 2:
     case 14:
-          setTheme('Yellow');
-          break;
+      setTheme('Yellow');
+      break;
     case 3:
-    case 15: 
-          setTheme('Green');
-          break;
-    case 4: 
-    case 16: 
-          setTheme('Blue');
-          break;
-    case 5: 
-    case 17: 
-          setTheme('Purple');
-          break;
-    case 6: 
-    case 18: 
-          setTheme('Red');
-          break;
+    case 15:
+      setTheme('Green');
+      break;
+    case 4:
+    case 16:
+      setTheme('Blue');
+      break;
+    case 5:
+    case 17:
+      setTheme('Purple');
+      break;
+    case 6:
+    case 18:
+      setTheme('Red');
+      break;
     case 7:
-    case 19: 
-          setTheme('Orange');
-          break;
-    case 8: 
+    case 19:
+      setTheme('Orange');
+      break;
+    case 8:
     case 20:
-          setTheme('Yellow');
-          break;
-    case 9: 
+      setTheme('Yellow');
+      break;
+    case 9:
     case 21:
-          setTheme('Green');
-          break;
-    case 10: 
+      setTheme('Green');
+      break;
+    case 10:
     case 22:
-          setTheme('Blue');
-          break;
-    case 11: 
+      setTheme('Blue');
+      break;
+    case 11:
     case 23:
-          setTheme('Purple');
-          break;
+      setTheme('Purple');
+      break;
     default:
-          setTheme('Green');
+      setTheme('Green');
   }
 
 }
@@ -221,4 +221,4 @@ checkTime();
 
 // Set up an alarm to check this regularly.
 browser.alarms.onAlarm.addListener(checkTime);
-browser.alarms.create('checkTime', {periodInMinutes: 5});
+browser.alarms.create('checkTime', { periodInMinutes: 5 });
