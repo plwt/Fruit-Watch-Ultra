@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Fruit Watch Ultra",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Fruit Watch Ultra is a dynamic theme for Firefox.",
+    "description": "Description of the add-on."
+  }
+}
