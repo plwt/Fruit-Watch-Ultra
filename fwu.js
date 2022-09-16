@@ -14,11 +14,8 @@ const themes = {
       tab_line: "rgb(245, 105, 0)",
       popup: "rgb(255, 255, 255)",
       popup_text: "rgb(0, 0, 0)",
-      popup_border: "rgb(245, 105, 0)",
       toolbar_field_border: "rgb(245, 105, 0)",
       toolbar_field_highlight: "rgb(245, 105, 0)",
-      toolbar_field_separator: "rgb(245, 105, 0)",
-      toolbar_top_separator: "rgb(245, 105, 0)",
       tab_loading: "rgb(245, 105, 0)"
     }
   },
@@ -27,21 +24,18 @@ const themes = {
     images: {},
     properties: {},
     colors: {
-      toolbar: 'rgb(20, 17, 26)',
-      frame: 'rgb(0, 0, 0)',
-      tab_background_text: 'rgb(255, 138, 0)',
-      ntp_background: 'rgb(20, 17, 26)',
-      ntp_background_text: 'rgb(0, 255, 65)',
-      popup: 'rgb(20, 17, 26)',
-      toolbar_field_text: 'rgb(255, 138, 0)',
-      toolbar_field_border: 'rgb(255, 138, 0)',
-      toolbar_field_border_focus: 'rgb(255, 138, 0)',
-      ntp_text: 'rgb(255, 138, 0)',
-      tab_line: 'rgb(255, 138, 0)',
-      toolbar_field: 'rgb(20, 17, 26)',
-      bookmark_text: 'rgb(255, 138, 0)',
-      popup_text: 'rgb(255, 138, 0)',
-      tab_loading: 'rgb(255, 138, 0)'
+      toolbar: "rgb(0, 0, 0)",
+      toolbar_text: "rgb(255, 0, 0)",
+      frame: "rgb(0, 0, 0)",
+      tab_background_text: "rgb(255, 0, 0)",
+      toolbar_field: "rgb(0, 0, 0)",
+      toolbar_field_text: "rgb(255, 0, 0)",
+      tab_line: "rgb(255, 0, 0)",
+      popup: "rgb(0, 0, 0)",
+      popup_text: "rgb(255, 0, 0)",
+      toolbar_field_border: "rgb(255, 0, 0)",
+      toolbar_field_highlight: "rgb(255, 0, 0)",
+      tab_loading: "rgb(255, 0, 0)"
     }
   },
 
