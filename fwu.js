@@ -74,7 +74,7 @@ function themeWindow(window) {
 function checkTime() {
   let date = new Date();
   let hours = date.getHours();
-  // Will set the theme between 8am and 8pm.
+  // Will set the theme between 0600 and 1800.
   switch (hours) {
     case 6:
     case 18:
