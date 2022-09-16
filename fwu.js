@@ -68,22 +68,21 @@ function themeWindow(window) {
 function checkTime() {
   let date = new Date();
   let hours = date.getHours();
-  // Will set the theme between 0600 and 1800.
-  switch (hours) {
-    case 6:
-    case 18:
-      setTheme('Day');
-      break;
-    case 18:
-    case 6:
-      setTheme('Night');
+  // zomg change
+  if ((hours >= 6) && (hours <= 18)) {
+    setTheme('Day');
+  }
+  else if ((hours >= 19) && (hours <= 5)) {
+    setTheme('Night');
+  }
+  else {
+    setTheme('Day');
+
   }
 
-}
+  // On start up, check the time to see what theme to show.
+  checkTime();
 
-// On start up, check the time to see what theme to show.
-checkTime();
-
-// Set up an alarm to check this regularly.
-browser.alarms.onAlarm.addListener(checkTime);
-browser.alarms.create('checkTime', { periodInMinutes: 5 });
+  // Set up an alarm to check this regularly.
+  browser.alarms.onAlarm.addListener(checkTime);
+  browser.alarms.create('checkTime', { periodInMinutes: 5 });
