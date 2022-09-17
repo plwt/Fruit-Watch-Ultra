@@ -9,12 +9,15 @@ const themes = {
       toolbar_text: "rgb(0, 0, 0)",
       frame: "rgb(206, 206, 206)",
       tab_background_text: "rgb(0, 0, 0)",
-      toolbar_field: "rgb(255, 255, 255)",
-      toolbar_field_text: "rgb(0, 0, 0)",
+      toolbar_field: "rgb(0, 0, 0)",
+      toolbar_field_text: "rgb(255, 255, 255)",
       tab_line: "rgb(245, 105, 0)",
       popup: "rgb(255, 255, 255)",
       popup_text: "rgb(0, 0, 0)",
+      popup_highlight: "rgb(245, 105, 0)",
+      popup_highlight_text: "rgb(0, 0, 0)",
       toolbar_field_border: "rgb(245, 105, 0)",
+      toolbar_field_border_focus: "rgb(245, 105, 0)",
       toolbar_field_highlight: "rgb(245, 105, 0)",
       tab_loading: "rgb(245, 105, 0)"
     }
@@ -33,7 +36,10 @@ const themes = {
       tab_line: "rgb(255, 0, 0)",
       popup: "rgb(0, 0, 0)",
       popup_text: "rgb(255, 0, 0)",
+      popup_highlight: "rgb(255, 0, 0)",
+      popup_highlight_text: "rgb(0, 0, 0)",
       toolbar_field_border: "rgb(255, 0, 0)",
+      toolbar_field_border_focus: "rgb(255, 0, 0)",
       toolbar_field_highlight: "rgb(255, 0, 0)",
       tab_loading: "rgb(255, 0, 0)"
     }
