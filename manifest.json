@@ -8,9 +8,6 @@
     }
   },
   "icons": {
-    "16": "fwu.png",
-    "48": "fwu.png",
-    "96": "fwu.png",
     "128": "fwu.png"
   },
   "permissions": [
