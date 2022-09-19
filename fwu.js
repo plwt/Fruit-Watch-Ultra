@@ -20,7 +20,7 @@ const themes = {
       toolbar_field_border_focus: "rgb(245, 105, 0)",
       toolbar_field_highlight: "rgb(245, 105, 0)",
       tab_loading: "rgb(245, 105, 0)",
-      "tab_selected": "rgb(245, 105, 0)"
+      tab_selected: "rgb(245, 105, 0)"
     }
   },
 
